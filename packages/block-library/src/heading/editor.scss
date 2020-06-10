@@ -7,12 +7,17 @@
 	min-width: 230px;
 }
 
+// Gray the icons for heading level options that may be semantically invalid.
+.block-library-heading__heading-level-dropdown-button .is-discouraged {
+	fill: $light-gray-ui;
+}
+
 // The dropdown already has a border, so we can remove the one on the heading
 // level toolbar.
 .block-library-heading-level-toolbar {
 	border: none;
 }
 
-.block-library-heading__heading-level-checker {
+.block-library-heading__heading-level-checker-warning {
 	margin: 0;
 }
